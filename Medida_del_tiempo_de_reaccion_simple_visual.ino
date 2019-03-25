@@ -35,8 +35,7 @@ void setup() {
 //  Función que calcula la desviación típica
 /////////////////////////////////////////////////////////////////////////
 
-int
-desviacionTipica(int tSuma, int myArray[]) {
+int desviacionTipica(int tSuma, int myArray[]) {
 
   int sum = 0;
   for (int i = 0; i < 5; i++) {
